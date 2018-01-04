@@ -27,6 +27,7 @@ public class IosTest {
         driver.findElement(By.xpath("//*[@placeholder='Username']")).sendKeys("cptester424@cp.com");
         driver.findElement(By.xpath("//*[@placeholder='Password']")).clear();
         driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("test1234");
+        driver.findElement(By.xpath("//*[@text='Login']")).click();
     }
 
 }

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><test_report>
+<info>
+<test_info>
+<test_status>OK</test_status>
+<time_zone>Eastern Standard Time</time_zone>
+<run_started>Thu, 4 Jan 2018 15:38:02</run_started>
+<total_time>21.0</total_time>
+<project/>
+<user>Device Testing</user>
+<machine_name>LT-J80ZT32</machine_name>
+</test_info>
+<device_info>
+<device_name>XT1045</device_name>
+<manufacture>motorola</manufacture>
+<model>XT1045</model>
+<os>Android</os>
+<serial_number>TA46309TSD</serial_number>
+<version>5.1</version>
+<versionMajor>5.x</versionMajor>
+<screen_size>720x1280</screen_size>
+</device_info>
+</info>
+<reports>
+<report>
+<line>Start steps group 'New Session [Android]'</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>0.PNG</imageFile>
+<text>{appPackage=com.alarm.alarmmobile.android.frontpoint, device.majorVersion=5.x, dontGoHomeOnQuit=false, device.os=Android, noReset=true, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, desired={appPackage=com.alarm.alarmmobile.android.frontpoint, appActivity=com.alarm.alarmmobile.android.feature.auth.login.LoginActivity, noReset=true, reportDirectory=C:\Users\Device Testing\Downloads\Automation\intellijappiumdemo\reports, reportFormat=xml, udid=TA46309TSD, platformName=Android, testName=TestName}, device.serialNumber=TA46309TSD, device.version=5.1, reportDirectory=C:\Users\Device Testing\Downloads\Automation\intellijappiumdemo\reports, autoWebview=false, udid=TA46309TSD, platformName=Android, testName=TestName, device.screenSize=720x1280, useKeystore=false, device.manufacture=motorola, instrumentApp=false, autoDismissAlerts=false, reportUrl=C:\Users\Device Testing\Downloads\Automation\intellijappiumdemo\reports\test0, keystorePath=~/.android/debug.keystore, appActivity=com.alarm.alarmmobile.android.feature.auth.login.LoginActivity, waitForDeviceTimeout=120000, device.model=XT1045, device.name=XT1045, projectName=, autoAcceptAlerts=false}</text>
+<line>Init Actual Capabilities</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>1.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Init Context [NATIVE_APP]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>2.PNG</imageFile>
+<text>PHONE</text>
+<line>Get device property: device.category</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>3.PNG</imageFile>
+<line>Set property android.native.nonInstrumented to: true</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>4.PNG</imageFile>
+<line>Launch native activity / URL com.alarm.alarmmobile.android.frontpoint/com.alarm.alarmmobile.android.feature.auth.login.LoginActivity</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>5.PNG</imageFile>
+<secondImageFile>6.PNG</secondImageFile>
+<line>Device Action: wake</line>
+<status>true</status>
+</report>
+<report>
+<line>Stop steps group</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>7.PNG</imageFile>
+<text>{ELEMENT=323}</text>
+<line>Find Element [xpath, //*[@id='login_edittext_username']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>8.PNG</imageFile>
+<line>Send Keys [(//*[@id='login_edittext_username'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>9.PNG</imageFile>
+<text>{ELEMENT=324}</text>
+<line>Find Element [xpath, //*[@id='login_edittext_password']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>10.PNG</imageFile>
+<text>{ELEMENT=325}</text>
+<line>Find Element [xpath, //*[@id='login_edittext_password']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>11.PNG</imageFile>
+<line>Send Keys [(//*[@id='login_edittext_password'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>12.PNG</imageFile>
+<text>{ELEMENT=326}</text>
+<line>Find Element [xpath, //*[@text='Login']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>13.PNG</imageFile>
+<line>Click [(//*[@text='Login'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>14.PNG</imageFile>
+<line>Quit</line>
+<status>true</status>
+</report>
+</reports>
+</test_report>
