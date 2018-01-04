@@ -39,8 +39,12 @@ public class Setup extends EventFiringWebDriver {
         dc.setCapability(MobileCapabilityType.NO_RESET, true);
         try {
             switch (deviceName) {
-                case IOS:
+                case IPHONE6:
                     dc.setCapability(MobileCapabilityType.UDID, "0afc0579b3564edb76c72fda3997d2997d632969");
+                    driver = new IOSDriver<IOSElement>(new URL("http://localhost:4723/wd/hub"), dc);
+                    break;
+                case IPHONE5:
+                    dc.setCapability(MobileCapabilityType.UDID, "0b000860612e57f9f502cd729fdcbc06c1055cf4");
                     driver = new IOSDriver<IOSElement>(new URL("http://localhost:4723/wd/hub"), dc);
                     break;
                 case ANDROID:

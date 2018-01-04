@@ -8,7 +8,7 @@
     <artifactId>intellij-appium-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-            <deviceName>not set</deviceName>
+        <deviceName>not set</deviceName>
     </properties>
     <repositories>
         <repository>

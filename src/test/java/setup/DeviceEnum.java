@@ -1,6 +1,7 @@
 package setup;
 
 public enum DeviceEnum {
-    IOS,
+    IPHONE6,
+    IPHONE5,
     ANDROID
 }
